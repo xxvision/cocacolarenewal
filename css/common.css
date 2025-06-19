@@ -1,0 +1,170 @@
+@charset "utf-8";
+@import url('font.css');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+
+
+
+/* 
+    폰트, 변수선언(컬러)///
+*/
+/* font-family: "Pretendard", serif; */
+/* font-family: 'NanumPenScript-Regular'; */
+/* font-family: 'Coca Cola ii'; */
+*{
+    box-sizing: border-box;
+}
+:root{
+    --main-font-family : 'Pretendard-Regular';
+    --main-red-color : #F40009;
+    --main-yellow-color : #FFD700;
+    --coca-font:'Coca Cola ii';
+    --nanum-font:'NanumPenScript-Regular';
+}
+body{
+    font-family: 'Pretendard';
+}
+img{
+    object-fit: cover;
+}
+.inner {
+    width: 1694px;
+    margin: 0 auto;
+}
+header i.fa-solid{
+    display: none;
+}
+header {
+    width: 100%;
+    height: 108px;
+    display: flex;
+    align-items: center;
+}
+header .inner {
+    width: 1180px;
+    height: 100%;
+    position: relative;
+    align-content: center;
+}
+header h1 {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 368px;
+    height: 73px;
+    border-radius: 40px 40px 0px 0px;
+    border-top: 4px solid var(--CocaColaRed, #F40009);
+    border-right: 4px solid var(--CocaColaRed, #F40009);
+    border-left: 4px solid var(--CocaColaRed, #F40009);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .inner nav {
+    width: 100%;
+}
+
+header .inner nav ul {
+    display: flex;
+    justify-content: space-between;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+header .inner nav ul li {
+    display: flex;
+    gap: 50px;
+}
+
+
+/* footer */
+
+footer{
+    width: 100%;
+    height: 520px;
+    background: #212121;
+    padding-top: 69px;
+}
+footer .con{
+    width: 80%;
+    height: 90%;
+}
+footer .con .top{
+    display: flex;
+    justify-content: space-between;
+}
+footer .con .top .logo{
+    width: 251px;
+    height: 51px;
+    background-image: url(../img/pc/footer/logo_footer.png);
+}
+footer .con .top .location{
+    width: 127px;
+    height: 39px;
+    border-radius: 100px;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+footer .con .top .location img{
+    width: 24px;
+    height: 24px;
+    margin-left: 22px;
+}
+footer .con .top .location p{
+    font-family: 'Pretendard';  
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+footer .con .txt_all{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 36px;
+}
+footer .con .txt_all ul.white{
+    display: flex;
+    gap: 180px;
+}
+footer .con .txt_all ul.white>li{
+    font-family: 'Pretendard';  
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+}
+footer .con .txt_all ul.white>li>ul{
+    margin-top: 26px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+footer .con .txt_all ul.white>li>ul>li{
+    font-family: 'Pretendard';  
+    font-size: 18px;
+    color: #AEAEAE;
+    font-weight: 500;
+}
+footer .bottom_all{
+    width: 100%;
+    height: 113px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #fff;
+}
+footer ul.sns{
+    display: flex;
+    width: 252px;
+    gap: 22px;
+}
+
+footer .bottom_all p{
+    font-family: 'Pretendard';  
+    font-size: 14px;
+    color: #fff;
+    font-weight: 500;
+}

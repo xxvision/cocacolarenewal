@@ -1,0 +1,1035 @@
+@charset "utf-8";
+
+.main_visual {
+    height: calc(100vh - 158px);
+    background: #F40009;
+    border-radius: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_visual .white {
+    width: 97%;
+    height: 95%;
+    background-image: url(../img/pc/header/main_white.png);
+    border-radius: 160px;
+    display: flex;
+    padding: 23px 18px;
+    justify-content: space-between;
+}
+
+.main_visual .white .left_img {
+    width: 1097px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 130px;
+    position: relative;
+}
+
+.main_visual .white .left_img .main1 {
+    height: 100%;
+
+}
+
+.main_visual .main1 .swiper-horizontal>.swiper-pagination-bullets,
+.main_visual .main1 .swiper-pagination-bullets.swiper-pagination-horizontal,
+.main_visual .main1 .swiper-pagination-custom,
+.swiper-pagination-fraction {
+    bottom: 10px;
+}
+
+.main_visual .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+    opacity: 1;
+    background: #fff;
+    margin: 0 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.main_visual .swiper-pagination-bullet-active {
+    background: red;
+}
+
+.main_visual .white .right_img {
+    width: 444px;
+    height: 100%;
+    border-radius: 130px;
+    overflow: hidden;
+}
+
+.main_visual .white .right_img .main2 {
+    height: 100%;
+}
+
+
+/* goods 페이지 */
+
+
+
+.goods {
+    margin-top: 76px;
+    width: 100%;
+    height: 200vh;
+    /*     height: 1978px; */
+    background-image: url(../img/pc/goods/bk_coke.jpg);
+    position: relative;
+    overflow: hidden;
+}
+
+.goods article {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+
+.goods .left_top {
+    width: 773px;
+    height: 884px;
+    background-image: url(../img/pc/goods/left_bg.png);
+    flex-shrink: 0;
+}
+
+.goods .left_main {
+    padding-top: 120px;
+    padding-left: 234px;
+}
+
+.goods .left_main h2 {
+    font-size: 65px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.goods .left_main p {
+    margin-top: 20px;
+    font-size: 28px;
+    line-height: 40px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.goods .left_main .search_bar {
+    width: 339px;
+    height: 50px;
+    border-bottom: 1px solid #FFF5E1;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 160px;
+}
+
+.goods .left_main .search_bar input {
+    width: 311px;
+    height: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: #fff;
+}
+
+.goods .left_main .search_bar button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+input::placeholder {
+    color: #fff;
+}
+
+.goods .more a{
+    display: flex;
+    gap: 13px;
+    margin-top: 65px;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 500;
+    color: var(--main-red-color);
+}
+
+.goods .right_top {
+    flex: 1;
+/*     padding-top: 128px;
+    padding-left: 85px; */
+    flex-shrink: 0;
+    position: relative;
+    margin-top: 128px;
+    margin-left: 49px;
+}
+
+.goods .right_top .product_all {
+    /* display: flex; */
+    /* gap: 12px; */
+    width: 100%;
+    height: 100%;
+    /* align-items: center; */
+    position: absolute;
+}
+.goods .right_top .product_wrap{
+}
+
+.goods .right_top .swiper-slide {
+    width: 383px;
+    height: 568px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+/*     margin-top: 55px;
+    margin-left: 12px; */
+}
+.goods .right_top .swiper-slide img {
+    width: 280px;
+    height: 368px;
+    border-radius: 15px;
+    background: #fff;
+    object-fit: contain;
+}
+.goods .right_top .swiper-slide h3 {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.goods .right_top .swiper-slide h2 {
+    margin-top: 5px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.goods .right_top .swiper-slide p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+
+.goods .right_top .swiper-slide-active {
+    width: 451px;
+    height: 678px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 36px;
+    flex-shrink: 0;
+}
+.goods .right_top .swiper-slide-active img {
+    width: 330px;
+    height: 436px;
+    border-radius: 15px;
+    object-fit: contain;
+    background: linear-gradient(180deg, #FFD700 0%, #FF4047 100%);
+}
+.goods .right_top .swiper-slide-active h3 {
+    padding-top: 56px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.goods .right_top .swiper-slide-active h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 5px;
+    color: #fff;
+}
+
+.goods .right_top .swiper-slide-active p {
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+/* .goods .right_top .product2 .img {
+    width: 280px;
+    height: 368px;
+    background-image: url(../img/pc/goods/img2.jpg);
+    border-radius: 15px;
+}
+
+.goods .right_top .product2 h3 {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.goods .right_top .product2 h2 {
+    margin-top: 5px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.goods .right_top .product2 p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.goods .right_top .product3 .img {
+    width: 280px;
+    height: 368px;
+    background-image: url(../img/pc/goods/img3.jpg);
+    border-radius: 15px;
+}
+
+.goods .right_top .product3 h3 {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.goods .right_top .product3 h2 {
+    margin-top: 5px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.goods .right_top .product3 p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+.goods .right_top .product4 .img {
+    width: 280px;
+    height: 368px;
+    background-image: url(../img/pc/goods/img4.jpg);
+    border-radius: 15px;
+}
+
+.goods .right_top .product4 h3 {
+    margin-top: 45px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.goods .right_top .product4 h2 {
+    margin-top: 5px;
+    font-size: 28px;
+    color: #fff;
+    font-weight: 700;
+}
+
+.goods .right_top .product4 p {
+    margin-top: 25px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+} */
+.goods .right_top .arrow {
+    width: 523px;
+    height: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    top: 300px;
+    z-index: 100;
+}
+
+.goods .right_top .arrow .left {
+    width: 42px;
+    height: 100%;
+    background-image: url(../img/pc/goods/chevron-left.png);
+}
+
+.goods .right_top .arrow .right {
+    width: 42px;
+    height: 100%;
+    background-image: url(../img/pc/goods/chevron-right.png);
+}
+.goods .bottom {
+    width: 100%;
+    height: 752px;
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+    padding-left: 147px;
+    position: relative;
+}
+
+.goods .bottom_txt {
+    width: 841px;
+    height: 491px;
+    z-index: 1;
+}
+
+.goods .bottom_txt h1 {
+    font-family: 'Coca Cola ii';
+    font-size: 121px;
+    color: #fff;
+
+}
+
+.goods .bottom_txt p.p1 {
+    margin-top: 34px;
+    font-size: 32px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.goods .bottom_txt p.p2 {
+    font-family: 'Nanum Pen Script';
+    margin-top: 33px;
+    font-size: 45px;
+    color: #fff;
+}
+
+.goods .bottom_txt .buy {
+    margin-top: 32px;
+    width: 250px;
+    height: 65px;
+    border: 1px solid #fff;
+    background: rgba(255, 255, 255, 0.20);
+    font-size: 28px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+}
+
+.goods .bottom_image {
+    width: 54%;
+    height: 100%;
+    background-image: url(../img/pc/goods/bk_bottom.jpg);
+    border-top-left-radius: 480px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+/* events */
+
+.events{
+    width: 100%;
+    height: 995px;
+    padding-top: 200px;
+}
+
+.events .events_all {
+    width: 90%;
+    margin: 0 auto;
+    height: 595px;
+}
+
+.events .events_all h2 {
+    color: #212121;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.events .events_all>h3 {
+    color: #757575;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 24px;
+}
+
+.events .events_all .scroll_all {
+    width: 100%;
+    height: 404px;
+    margin-top: 60px;
+}
+
+.events .events_all .scroll_all ul {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    height: 314px;
+}
+
+.events .events_all .scroll_all ul li {
+    position: relative;
+    height: 100%;
+    flex: 1;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background-size: cover;
+    transition: .6s;
+}
+.events .events_all .scroll_all ul li a{
+}
+.events .events_all .scroll_all ul li .heart {
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.events .events_all .scroll_all ul li .txt_all {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 196px;
+}
+
+.events .events_all .scroll_all ul li h3 {
+    font-family: 'RiaSans-ExtraBold';
+    font-size: 28px;
+    color: #fff;
+}
+
+.events .events_all .scroll_all ul li h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 12px;
+}
+
+.events .events_all .scroll_all ul li .more {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 30px;
+}
+
+.events .events_all .scroll_all ul li .more p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.events .events_all .scroll_all ul li .more .right {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/pc/events/arrow-right.png);
+
+}
+
+.events .events_all .scroll_all ul li:nth-child(1) {
+    background: url(../img/pc/events/events1.jpg) lightgray 50% / cover no-repeat;
+
+}
+
+.events .events_all .scroll_all ul li:nth-child(2) {
+    background: url(../img/pc/events/events2.jpg) lightgray 50% / cover no-repeat;
+
+}
+
+.events .events_all .scroll_all ul li:nth-child(3) {
+    background: url(../img/pc/events/events3.jpg) lightgray 50% / cover no-repeat;
+
+}
+
+.events .events_all .scroll_all ul li:nth-child(4) {
+    background: url(../img/pc/events/events4.jpg) lightgray 50% / cover no-repeat;
+
+}
+
+.events .events_all .scroll_all ul li:nth-child(5) {
+    background: url(../img/pc/events/events5.jpg) lightgray 50% / cover no-repeat;
+
+}
+
+/* .events .events_all .scroll_all ul li:hover:nth-child(1) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/pc/events/events1.jpg) lightgray 50% / cover no-repeat;
+    background-size: 110%;
+
+}
+
+.events .events_all .scroll_all ul li:hover:nth-child(2) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/pc/events/events2.jpg) lightgray 50% / cover no-repeat;
+    background-size: 110%;
+
+}
+
+.events .events_all .scroll_all ul li:hover:nth-child(3) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/pc/events/events3.jpg) lightgray 50% / cover no-repeat;
+    background-size: 110%;
+
+}
+
+.events .events_all .scroll_all ul li:hover:nth-child(4) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/pc/events/events4.jpg) lightgray 50% / cover no-repeat;
+    background-size: 110%;
+
+}
+
+.events .events_all .scroll_all ul li:hover:nth-child(5) {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.40) 100%), url(../img/pc/events/events5.jpg) lightgray 50% / cover no-repeat;
+    background-size: 110%;
+
+} */
+
+.events .events_all .scroll_all .bottom {
+    width: 140px;
+    height: 14px;
+    background: #E0E0E0;
+    border-radius: 15px;
+    margin: 0 auto;
+    margin-top: 70px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+}
+
+.events .events_all .scroll_all .bottom .circle {
+    width: 24px;
+    height: 24px;
+    background: #F40009;
+    border-radius: 50%;
+    margin-left: 3px;
+    box-shadow: 0px 2px 10px 2px rgba(0, 0, 0, 0.10);
+}
+
+
+
+
+
+
+
+
+
+/* story */
+
+.story {
+    width: 100%;
+    height: 953px;
+    display: flex;
+    position: relative;
+
+}
+
+.story .coke {
+    width: 472px;
+    height: 472px;
+    position: absolute;
+    left: 50%; top: 50%;
+    margin-left: -236px;
+    margin-top: -236px;
+ /*    left: 37.5%;
+    top: 25%; */
+    /* transform: translate(-50%, -50%); */
+    background-image: url(../img/pc/story/coca_cola.png);
+}
+
+.story .coke:hover {
+    transform-origin: center;
+    animation: rotate 2s;
+}
+
+.story .coke:not(:hover) {
+    animation: rotateBack 2s;
+}
+
+.story .bottom_all {
+    width: 330px;
+    height: 104px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.story .bottom_all .page {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 3px solid #000;
+    text-align: center;
+    line-height: 62px;
+    font-family: 'Pretendard';
+    font-weight: 500;
+    font-size: 26px;
+}
+
+.story .bottom_all .prev {
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/pc/story/prev.png);
+    background-repeat: no-repeat;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: .6s;
+}
+.story .bottom_all .prev:hover{
+    background-image: url(../img/pc/story/prev_hover.png);
+    
+}
+.story .bottom_all .prev p {
+    font-family: 'Pretendard';
+    color: #FF6B6B;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: right;
+    line-height: 90px;
+    padding-right: 39px;
+}
+
+.story .bottom_all .next {
+    width: 50%;
+    height: 100%;
+    background-image: url(../img/pc/story/next.png);
+    background-repeat: no-repeat;
+    margin-top: 28px;
+    cursor: pointer;
+    transition: .6s;
+}
+.story .bottom_all .next:hover{
+    background-image: url(../img/pc/story/next_hover.png);
+
+}
+.story .bottom_all .next p {
+    font-family: 'Pretendard';
+    color: #F5F5F5;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 90px;
+    padding-left: 39px;
+}
+
+.story .left {
+    width: 50%;
+    height: 100%;
+}
+
+.story .left ul {
+    position: relative;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.story .left ul li {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.story .left ul li img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.story .right {
+    width: 50%;
+    height: 100%;
+    background: #FFF5E1;
+}
+
+.story .right .txt_all {
+    width: 551px;
+    height: 337px;
+    margin: 0 auto;
+    margin-top: 307px;
+}
+
+.story .right .txt_all h2 {
+    font-family: 'Pretendard';
+    color: #000;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.story .right .txt_all h1 {
+    margin-top: 3px;
+    font-family: 'Pretendard';
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.story .right .txt_all .tag {
+    display: flex;
+    gap: 14px;
+    margin-top: 26px;
+}
+
+.story .right .txt_all .tag h3 {
+    color: #000;
+    font-family: 'Pretendard';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.story .right .txt_all .more {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 48px;
+}
+
+.story .right .txt_all .more .plus {
+    width: 65px;
+    height: 65px;
+    background-image: url(../img/pc/story/plus.png);
+}
+
+.story .right .txt_all .more p{
+    color: #000;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    letter-spacing: 1.12px;
+}
+
+
+
+
+
+
+
+
+
+/* journey */
+
+.journey {
+    width: 100%;
+    height: 1320px;
+    padding-top: 220px;
+}
+
+.journey h1 {
+    color: #F40009;
+    text-align: center;
+    font-family: "Coca Cola ii";
+    font-size: 121px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 7.865px;
+}
+
+.journey h2 {
+    color: #B94545;
+    font-family: 'Pretendard';
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.journey .video {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    align-self: stretch;
+    border-radius: 30px;
+    object-fit: cover;
+    box-shadow: 0px -4px 4px 0px rgba(0, 0, 0, 0.15), 0px 4px 20px 3px rgba(255, 0, 0, 0.10);
+}
+
+.journey .video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.journey .button {
+    margin: 60px auto 0;
+    width: 324px;
+    height: 60px;
+    background: #C12826;
+    border-radius: 100px;
+    line-height: 60px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.journey .button p {
+    font-family: 'Pretendard';
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 72px;
+}
+
+.journey .button .right {
+    width: 70px;
+    height: 100%;
+    background: #F2373D;
+    position: absolute;
+    left: 254px;
+    top: 0;
+    border-radius: 0 100px 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journey .button .right img {}
+
+
+
+
+
+
+
+/* brand_all */
+
+.brand_all {
+    width: 100%;
+    height: 921px;
+    padding-top: 200px;
+    overflow: hidden;
+    position: relative;
+    background: #F5F5F5;
+}
+
+.brand_all h1 {
+    font-family: 'Pretendard';
+    color: #212121;
+    font-size: 65px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.brand_all h2 {
+    font-family: 'Pretendard';
+    color: #757575;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 24px;
+}
+
+.brand_all .right_button {
+    width: 75px;
+    height: 75px;
+    background: #f00;
+    position: absolute;
+    right: 82px;
+    bottom: 429px;
+    border-radius: 50%;
+    filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.10));
+    z-index: 10;
+}
+
+.brand_all .right_button img {}
+
+.brand_all ul {
+    margin-top: 60px;
+    height: 195px;
+    display: flex;
+    gap: 24px;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+.brand_all ul li {
+    width: 150px;
+    height: 100%;
+}
+
+.brand_all ul li .brand {
+    width: 100%;
+    height: 150px;
+    border: 1px solid #BDBDBD;
+    border-radius: 50%;
+    object-fit: fill;
+
+}
+
+.brand_all ul li .brand img {
+    border-radius: 50%;
+}
+
+.brand_all ul li p {
+    font-family: 'Pretendard';
+    margin-top: 16px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.brand_all .button {
+    margin: 60px auto 0;
+    width: 324px;
+    height: 60px;
+    border: 1px solid #f00;
+    border-radius: 100px;
+    line-height: 60px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.brand_all .button p {
+    font-family: 'Pretendard';
+    color: #212121;
+    font-size: 24px;
+    font-weight: 400;
+    margin-left: 64px;
+}
+
+.brand_all .button .right {
+    width: 70px;
+    height: 100%;
+    background: #F2373D;
+    position: absolute;
+    left: 254px;
+    top: 0;
+    border-radius: 0 100px 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand_all .right_button{
+    cursor: pointer;
+}
+.brand_all .button .right img {}
+
+
+
+
+
+
+/* 이미지 회전 cocacola */
+@keyframes rotate {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes rotateBack {
+    from {
+        -webkit-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(-360deg);
+        -o-transform: rotate(-360deg);
+        transform: rotate(-360deg);
+    }
+}
